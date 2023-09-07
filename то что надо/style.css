@@ -1,0 +1,135 @@
+.body{
+    background-color: #EFF6FF;
+}
+
+.box{
+    height: 800px;
+    width: 1250px;
+    background-color: #EFF6FF;
+    box-shadow: 0px 20px 25px ;
+}
+
+.txt{
+    padding: 25px 0px 0px 650px;
+    color: #2A4A5C;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button_facebook{
+    background-color: #255a9b;
+    border: none;
+    color: white;
+    padding: 5px 6px;
+    line-height: 15px;
+    font-size: 14px;    
+    align-items: center;
+    display: flex;
+    margin-left: 70px;
+}
+
+.button_in{
+    background-color: #255a9b;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    line-height: 15px;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+}
+
+.icon{
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+
+.iconin{
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.or::before, .or::after {
+    margin-left: 36px;
+    margin-right: 36px;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: #c2c2c2;
+}
+
+.input {
+    padding: 8px;
+    border: gray solid 1px;
+    width: 200px;
+    margin-left: 68px;
+}
+
+.text{
+    padding-left: 61%;
+}
+
+.chooise{
+    margin-left: 59%;
+}
+
+.input-radio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_radio {
+    margin: 8px 8px 8px 8px;
+}
+
+label::after{
+    content:url(./img/info.png);
+    margin-left: 3px;
+    padding: 5px;
+}
+
+.cube{
+    background-color: white;
+    max-width: 300px;
+    margin: 25px 10px 10px 50%;
+    padding: 18px;
+    color: rgb(61, 61, 61);
+    box-shadow: 3px 3px 6px 1px rgba(46, 46, 46, 0.75);
+}
+
+.checkbox{
+    margin-top: 36px;
+    font-size: 18px;
+    color: gray;
+    margin-left: 50%;
+}
+  
+.but {
+    background-color: #3698FB;
+    color: white;
+    border: none;
+    padding: 8px 32px;
+    margin-top: 37px;
+    border-radius: 5px;
+    min-width: 200px;
+    margin-left: 30%;
+}
+
+
